@@ -4,7 +4,7 @@ import { makeColors } from './make-colors.js'
 import { KYOTO_SVG } from './scene'
 import { KYOTO_SIDE_SVG } from './scene_side'
 
-// 千戀萬花・京都小鎮（白天）— made by 資訊老師黃博胤
+// 千戀萬花・京都小鎮（白天）
 // Washi-paper grays tinted toward the daytime sky, with the game's wine red as accent.
 const { theme, problems } = makeColors({
   label: '千戀萬花・京都小鎮',

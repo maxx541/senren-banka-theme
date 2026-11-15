@@ -52,6 +52,4 @@ claude plugin install senren-banka --marketplace maxx541/senren-banka-theme
 
 ## 版權
 
-這是粉絲自製的像素畫作品，角色與世界觀的著作權屬原作《千戀＊萬花》及其權利人（Yuzusoft）所有，這個外掛不用於商業用途。
-
-made by 資訊老師黃博胤
+《千戀＊萬花》的角色、世界觀，以及這個外掛裡的像素畫作品，著作權皆屬 Yuzusoft 所有。這個外掛只是粉絲自製的非商業用途作品，不主張任何權利。
