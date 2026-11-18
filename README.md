@@ -4,11 +4,11 @@ Claude 桌面版的主題外掛：把對話背景換成一張白天的京都小�
 
 ## 示意圖
 
-**完整版**（`/senren-banka`）
+**完整版**（`/senren-banka full`）
 
 ![完整版](docs/preview-full.png)
 
-**兩側版**（`/senren-banka side`）：建築和角色只在左右兩側，中間留給聊天文字。
+**兩側版**（`/senren-banka`，預設）：建築和角色只在左右兩側，中間留給聊天文字。
 
 ![兩側版](docs/preview-side.png)
 
@@ -36,12 +36,12 @@ claude plugin install senren-banka --marketplace maxx541/senren-banka-theme
 
 ## 使用
 
-- `/senren-banka`：完整版（神社、白川筋、祇園、二年坂）。
-- `/senren-banka side`：兩側版。
+- `/senren-banka`：兩側版（預設，建築和角色在左右兩側，中間留給聊天欄）。
+- `/senren-banka full`：完整版（神社、白川筋、祇園、二年坂）。
 - `/senren-banka image`：改用一張靜態圖片。
 - `/senren-banka off`：關閉背景。
 
-安裝後新開的工作階段會自動套用完整版。
+安裝後新開的工作階段會自動套用兩側版。
 
 ## 注意
 

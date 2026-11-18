@@ -72,13 +72,13 @@ export const register: Register = on => {
     try {
       await $.command.register({
         name: COMMAND,
-        description: '千戀萬花・京都小鎮背景：/senren-banka 套用，/senren-banka side 兩側版，/senren-banka image 改用靜態圖片，/senren-banka off 關閉',
+        description: '千戀萬花・京都小鎮背景：/senren-banka 套用（預設兩側版），/senren-banka full 完整版，/senren-banka image 改用靜態圖片，/senren-banka off 關閉',
       })
     } catch {
       // The look still applies without the command.
     }
 
-    const said = await apply($, 'scene')
+    const said = await apply($, 'side')
 
     if (!said.startsWith('京都小鎮已套用')) {
       $.ui.status(said)
@@ -100,7 +100,7 @@ export const register: Register = on => {
       return { text: '京都小鎮背景已關閉。' }
     }
 
-    const said = await apply($, word === 'image' ? 'image' : word === 'side' ? 'side' : 'scene')
+    const said = await apply($, word === 'image' ? 'image' : word === 'full' ? 'scene' : 'side')
 
     if (said.startsWith('京都小鎮已套用')) {
       $.ui.status(undefined)
